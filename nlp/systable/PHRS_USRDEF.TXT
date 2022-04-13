@@ -1,0 +1,34 @@
+#
+# USER-DEFINED TERM TABLE for eland.nlp.*
+#                                                      eLand Technologies, Taiwan
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#
+# Syntax: [term],[the weight score to override]
+#
+# (Blacklist) If you wanna remove the term "HAPPY" 
+# no matter how many times it occurs, please add:
+#
+#    HAPPY,0
+#
+# (Whitelist) If you wanna emphrasis the term "PRESIDENT"
+# even only few times it occurs, please add:
+#
+#    PRESIDENT,100
+#
+# Note: if duplicate terms found, the former will be discard.
+#
+台式小吃,100
+意藍科技,100
+eland,100
+友達,100
+新奇美,100
+可能將,0
+越少,0
+萬片,0
+年第,0
+與瑞,0
+友達與,0
+與海爾,0
+檢視圖片,0
+按這裡檢視圖片,0
+wrote,0

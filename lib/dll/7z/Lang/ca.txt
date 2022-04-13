@@ -1,0 +1,414 @@
+﻿;!@Lang@!UTF-8!
+; 7-Zip 3.09.01 beta
+; Translated by Josep Casals 
+;
+;
+;
+;
+
+00000000 = "Catalan"
+00000001 = "Català"
+00000002 = "3"
+
+; 7-Zip Configuration
+
+; Title
+01000000 = "Configuració de 7-Zip"
+
+; Info Page
+01000100 = "Informació sobre 7-Zip"
+01000103 = "7-Zip és programari lliure (GNU LGPL). Si li agrada 7-Zip i vol col.laborar en el seu desenvolupament, pot registrar el programa pagant US$ 20. S'accepten targes de crédit així com altres modalitats de pagament."
+01000105 = "Registrar"
+
+; Folders Page
+01000200 = "Directoris"
+01000210 = "Directori de &treball"
+01000211 = "Directori temporal del &sistema"
+01000212 = "Directori a&ctual"
+01000213 = "E&specificar directori:"
+01000214 = "Utilitzar únicament per a discs separables"
+
+01000281 = "Especificar un directori pels arxius temporals."
+
+; System Page
+01000300 = "Sistema"
+01000301 = "Integrar 7-Zip dins el menú contextual de Windows"
+01000302 = "Menú contextual en cascada"
+01000310 = "Objectes del menú contextual:"
+
+; Language Page
+01000400 = "Llengua"
+01000401 = "Llengua:"
+
+
+; 7-Zip Explorer extension
+
+; Context menu
+02000101 = "7-Zip"
+02000102 = "7-Zip comandes"
+02000103 = "Obrir"
+02000104 = "Obre l'arxiu seleccionat."
+02000105 = "Extraure fitxers..."
+02000106 = "Extrau els fitxers de l'arxiu seleccionat."
+02000107 = "Afegir a l'arxiu..."
+02000108 = "Afegir els fitxers seleccionats a l'arxiu."
+02000109 = "Comprovar arxiu"
+0200010A = "Comprova la integritat del fitxer seleccionat."
+0200010B = "Extraure a aquest directori"
+0200010C = "Extrau els fitxers de l'arxiu escollit al directori actual."
+0200010D = "Extraure a {0}"
+0200010E = "Extrau fitxers al subdirectori."
+0200010F = "Afegir a {0}"
+02000110 = "Afegeix els fitxers escollits a l'arxiu."
+02000111 = "Comprimir i enviar per correu electrònic..."
+02000112 = "Comprimeix els objectes escollits a l'arxiu i enviar l'arxiu per correu electrònic."
+02000113 = "Comprimir a {0} i enviar per correu electrònic"
+02000114 = "Comprimeix els objectes escollits a l'arxiu i enviar l'arxiu per correu electrònic.."
+
+02000140 = "<Directori>"
+02000141 = "<Arxiu>"
+
+; Properties
+02000203 = "Adreça"
+02000204 = "Nom"
+02000205 = "Tipus d'arxiu"
+02000206 = "Directori"
+02000207 = "Tamany"
+02000208 = "Tamany comprimit"
+02000209 = "Atributs"
+0200020A = "Creat"
+0200020B = "Darrer accés"
+0200020C = "Darrera modificació"
+0200020D = "Compacte"
+0200020E = "Comentari"
+0200020F = "Xifrat"
+02000210 = "Expandit abans"
+02000211 = "Expandit després"
+02000212 = "Diccionari"
+02000213 = "CRC"
+02000214 = "Tipus"
+02000215 = "Anti"
+02000216 = "Mètode"
+02000217 = "SO orígen"
+02000218 = "Sistema de fitxers"
+02000219 = "Usuari"
+0200021A = "Grup"
+0200021B = "Bloc"
+0200021C = "Comentari"
+
+; Status bar 
+02000301 = "{0} objecte(s) seleccionat(s)"
+02000302 = "{0} objecte(s)"
+
+; List Context Menu
+02000401 = "&Columnes..."
+
+02000411 = "&Obrir"
+02000412 = "&Extraure..."
+
+; ToolBar
+02000501 = "Extraure"
+
+; Messages 
+02000601 = "Aquest tipus d'arxiu no permet actualització."
+02000602 = "No es pot actualitzar l'arxiu {0}"
+02000603 = "No es pot crear el directori '{0}'"
+02000604 = "Tipus d'arxiu desconegut."
+02000605 = "Error"
+02000606 = "Massa objectes"
+02000607 = "No hi ha cap programa associat amb aquest tipus de fitxer"
+02000608 = "No hi ha errors"
+
+; Dialogs
+02000702 = "Acceptar"
+02000705 = "&Sí"
+02000707 = "Sí a &tot"
+02000709 = "&No"
+0200070B = "No a t&ot"
+
+02000710 = "Cancel.lar"
+02000711 = "&Cancel.lar"
+02000713 = "Tan&car"
+02000714 = "Aturar"
+
+02000720 = "Ajuda"
+
+; Extract dialog
+02000800 = "Extraure"
+02000801 = "E&xtraure a:"
+02000802 = "Contrasenya"
+
+02000810 = "Mode d'adreça"
+02000811 = "Adreça completa"
+02000812 = "Adreça actual"
+02000813 = "Sense adreça"
+
+02000820 = "Sobreescriure"
+02000821 = "Amb confirmació"
+02000822 = "Sense confirmació"
+02000823 = "Conservar arxius ja existents"
+02000824 = "Renomenar automàticament"
+
+02000830 = "Fitxers"
+02000831 = "Fitxers &seleccionats"
+02000832 = "Tots els fitxers"
+
+02000881 = "Seleccioni destinació pels fitxers extrets."
+
+02000890 = "Extraient"
+
+; Overwrite dialog
+02000900 = "Confirmar substitució de fitxers"
+02000901 = "El directori destinatari conté un fitxer amb el mateix nom."
+02000902 = "¿Vol substituir el fitxer existent"
+02000903 = "per aquest altre?"
+
+02000911 = "Renomenar a&utomàticament"
+
+02000982 = "{0} bytes"
+02000983 = "modificat el"
+
+; Messages dialog
+02000A00 = "Missatges de diagnosi"
+
+02000A80 = "Missatge"
+
+02000A91 = "Mètode de compressió no vàlid per a '{0}'."
+02000A92 = "Error de dades en '{0}'. L'arxiu és corrupte."
+02000A93 = "CRC ha fallat en '{0}'. L'arxiu és corrupte."
+
+; Password dialog
+02000B00 = "Introduir contrasenya"
+02000B01 = "Introduir contrasenya:"
+02000B02 = "Mo&strar contrasenya"
+
+; Progress dialog
+02000C00 = "Procés"
+02000C01 = "Temps transcorregut:"
+02000C02 = "Temps restant:"
+02000C03 = "Tamany:"
+02000C04 = "Taxa:"
+
+02000C10 = "Rerefons"
+02000C11 = "Primer pla"
+02000C12 = "&Pausa"
+02000C13 = "&Continuar"
+
+02000C20 = "Aturat"
+
+02000C30 = "Està segur de que vol cancel.lar?"
+
+; Compress dialog
+02000D00 = "Afegir a l'arxiu"
+02000D01 = "&Arxiu:"
+02000D02 = "Mode d'act&ualització:"
+02000D03 = "&Format de l'arxiu:"
+02000D04 = "Tipus de co&mpressió:"
+02000D05 = "Crear arxiu compacte"
+02000D06 = "&Paràmetres:"
+02000D07 = "Opcions"
+02000D08 = "Crear arxiu SF&X"
+02000D09 = "Multi-threading"
+02000D0A = "Xifrar el nom dels fitxers"
+
+02000D40 = "Separar en &volums, bytes:"
+
+02000D81 = "Sense compressió"
+02000D82 = "Normal"
+02000D83 = "Màxima"
+02000D85 = "Ràpida"
+02000D85 = "La més ràpida"
+02000D86 = "Ultra"
+
+02000D90 = "Visualitzar"
+
+02000DA1 = "Afegir i substituir fitxers"
+02000DA2 = "Actualitzar i afegir fitxers"
+02000DA3 = "Actualitzar fitxers ja presents"
+02000DA4 = "Sincronitzar fitxers"
+
+02000DB1 = "Tots els fitxers"
+
+02000DC0 = "Comprimint"
+
+; Columns dialog
+02000E00 = "Columnes"
+02000E01 = "Seleccioni les columnes que vol que siguin visibles en aquest mode. Faci servir les tecles AvPg i RePg per a organitzar les columnes."
+02000E02 = "La columna escollida ha de tenir"
+02000E03 = "pixels d'amplària."
+
+02000E10 = "Moure cap am&unt"
+02000E11 = "Moure cap avall"
+02000E12 = "Mo&strar"
+02000E13 = "Amagar"
+02000E14 = "Fixar"
+
+02000E81 = "Títol"
+02000E82 = "Ample"
+
+; Testing
+02000F90 = "Provant"
+
+
+; File Manager
+
+03000000 = "Gestor de Fitxers 7-Zip"
+
+; Menu
+03000102 = "&Fitxer"
+03000103 = "&Editar"
+03000104 = "&Visualitzar"
+03000105 = "Eines"
+03000106 = "Ajuda"
+03000107 = "Preferits"
+
+; File
+03000210 = "&Obrir"
+03000211 = "Obrir d&ins"
+03000212 = "Obrir fora"
+03000220 = "&Visualitzar"
+03000221 = "&Editar"
+03000230 = "Renom&enar"
+03000231 = "&Copiar a..."
+03000232 = "&Moure a..."
+03000233 = "Suprimir"
+03000240 = "P&ropietats"
+03000241 = "Come&ntari"
+03000250 = "Crear directori"
+03000251 = "Crear fitxer"
+03000260 = "Sortir"
+
+; Edit
+03000310 = "Desfer"
+03000311 = "&Refer"
+03000320 = "Re&tallar"
+03000321 = "&Copiar"
+03000322 = "Enganxar"
+03000323 = "&Suprimir"
+03000330 = "Seleccion&ar tots"
+03000331 = "Seleccionar cap"
+03000332 = "&Invertir selecció"
+03000333 = "Seleccionar..."
+03000334 = "No seleccionar..."
+03000335 = "Seleccionar per tipus"
+03000336 = "No seleccionar per tipus"
+
+; View
+03000410 = "Icones g&rans"
+03000411 = "Icones petites"
+03000412 = "&Llista"
+03000413 = "&Detalls"
+03000420 = "No ordenat"
+03000430 = "Obrir directori arrel"
+03000431 = "Directori pare"
+03000432 = "Historial de carpetes..."
+03000440 = "Actualitza&r"
+03000450 = "&2 Taules"
+
+; Tools
+03000510 = "&Opcions..."
+
+; Help
+03000610 = "&Contingut..."
+03000620 = "Sobre 7-Zip..."
+
+; Favorites
+03000710 = "&Afegir el directori als Preferits com"
+03000720 = "Personal"
+
+; Options Dialog
+
+03010000 = "Opcions"
+
+; Plugins
+03010100 = "Plugins"
+03010101 = "&Plugins:"
+03010110 = "Opcions..."
+
+; Edit
+03010200 = "Editor"
+03010201 = "&Editor:"
+
+; System
+03010300 = "Sistema"
+03010302 = "Associar 7-Zip amb:"
+03010310 = "Plugin"
+
+; Settings
+03010400 = "Selecció"
+03010401 = "Mostrar l'element \"..\""
+03010402 = "Mostrar icones reals dels fitxers"
+03010410 = "Mostrar el menú de sistema"
+
+; Strings
+
+03020201 = "Copiar"
+03020202 = "Moure"
+03020203 = "Copiar a:"
+03020204 = "Moure a:"
+03020205 = "Copiant..."
+03020206 = "Movent..."
+03020207 = "No es poden moure o copiar elements d'aquest tipus de carpetes."
+03020208 = "Operació no permesa."
+
+03020210 = "Confirmar supresió del fitxer"
+03020211 = "Confirmar supresió del directori"
+03020212 = "Confirmar supresió múltiple de fitxers"
+03020213 = "Està segur de voler suprimir '{0}'?"
+03020214 = "Està segur de voler suprimir la carpeta '{0}' i tot el seu contingut?"
+03020215 = "Està segur de voler esborrar aquests {0} elements?"
+03020216 = "Suprimint..."
+03020217 = "Error esborrant fitxer o carpeta"
+
+03020220 = "Renomenant..."
+03020221 = "Error renomenant fitxer o carpeta"
+
+03020230 = "Crear carpeta"
+03020231 = "Nom de carpeta:"
+03020232 = "Carpeta nova"
+03020233 = "Error creant carpeta"
+
+03020240 = "Crear arxiu"
+03020241 = "Nom d'arxiu:"
+03020242 = "Fitxer nou"
+03020243 = "Error creant el fitxer"
+
+03020250 = "Seleccionar"
+03020251 = "No seleccionar"
+03020252 = "Màscara:"
+
+03020260 = "Historial de directoris"
+
+03020280 = "El fitxer '{0}' ha sido modificat.\nVol actualitzar-lo a l'arxiu?"
+03020281 = "No pot actualitzar-se el fitxer\n'{0}'"
+03020282 = "No pot executar-se l'editor."
+03020283 = "Obrint..."
+
+03020290 = "Comentari"
+03020291 = "&Comentari:"
+
+030202A0 = "Sistema"
+
+03020300 = "El meu ordinador"
+03020301 = "Entorn de xarxa"
+
+03020400 = "Afegir"
+03020401 = "Extreure"
+03020402 = "Provar"
+
+03020420 = "Copiar"
+03020421 = "Moure"
+03020422 = "Esborrar"
+03020423 = "Informació"
+
+; Computer
+03031100 = "Tamany total"
+03031101 = "Espai lliure"
+03031102 = "Tamany sector"
+03031103 = "Etiqueta"
+
+; Network
+03031200 = "Nom local"
+03031201 = "Proveïdor"
+
+;!@LangEnd@!

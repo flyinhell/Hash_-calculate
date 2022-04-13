@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.eland.entities.SearchRecordEntity" table="search_record" schema="dbo" catalog="testdb">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+        <property name="keyword" column="keyword"/>
+        <property name="totalCount" column="total_count"/>
+        <property name="searchTime" column="search_time"/>
+
+    </class>
+</hibernate-mapping>

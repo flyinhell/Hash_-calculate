@@ -1,0 +1,41 @@
+
+
+/NimbusMonL-Regu	(n022003l.pfb)	;
+/NimbusMonL-ReguObli	(n022023l.pfb)	;
+/NimbusMonL-Bold	(n022004l.pfb)	;
+/NimbusMonL-BoldObli	(n022024l.pfb)	;
+
+/NimbusSanL-Regu	(n019003l.pfb)	;
+/NimbusSanL-ReguItal	(n019023l.pfb)	;
+/NimbusSanL-Bold	(n019004l.pfb)	;
+/NimbusSanL-BoldItal	(n019024l.pfb)	;
+
+/NimbusRomNo9L-Regu	(n021003l.pfb)	;
+/NimbusRomNo9L-ReguItal	(n021023l.pfb)	;
+/NimbusRomNo9L-Medi	(n021004l.pfb)	;
+/NimbusRomNo9L-MediItal	(n021024l.pfb)	;
+
+/StandardSymL	(s050000l.pfb)	;
+
+/Dingbats	(d050000l.pfb)	;
+
+
+/Courier			/NimbusMonL-Regu	;
+/Courier-Oblique		/NimbusMonL-ReguObli	;
+/Courier-Bold			/NimbusMonL-Bold	;
+/Courier-BoldOblique		/NimbusMonL-BoldObli	;
+
+/Helvetica			/NimbusSanL-Regu	;
+/Helvetica-Oblique		/NimbusSanL-ReguItal	;
+/Helvetica-Bold			/NimbusSanL-Bold	;
+/Helvetica-BoldOblique		/NimbusSanL-BoldItal	;
+
+/Times-Roman			/NimbusRomNo9L-Regu	;
+/Times-Italic			/NimbusRomNo9L-ReguItal	;
+/Times-Bold			/NimbusRomNo9L-Medi	;
+/Times-BoldItalic		/NimbusRomNo9L-MediItal	;
+
+/Symbol				/StandardSymL	;
+
+/ZapfDingbats			/Dingbats	;
+

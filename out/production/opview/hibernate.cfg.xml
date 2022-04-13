@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+        <!--DB設置-->
+
+        <property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="connection.url">jdbc:sqlserver://172.17.13.114:1433</property>
+
+        <!-- 顯示實際操作資料庫時的SQL
+        <property name="show_sql">true</property>
+        將顯示的SQL排版，方便觀看
+        <property name="format_sql">true</property>-->
+
+
+        <!--==============C3P0的配置=============
+        <property name="hibernate.connection.provider_class">
+            org.hibernate.connection.C3P0ConnectionProvider
+        </property>-->
+        <!-- 最小連接數 -->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <!-- 最大連接數 -->
+        <property name="hibernate.c3p0.max_size">20</property>
+        <!-- 多久會把無用的連接視為timeout並移除到min_size的連接數量，單位毫秒 -->
+        <property name="hibernate.c3p0.timeout">300</property>
+        <!-- 最大的PreparedStatement的數量 -->
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <!-- 多久進行空閒連接的檢查，確定連接還存在，例如有無被Database端關掉，單位是秒-->
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+        <!--  連接耗盡并接到新連接請求，則新增加-->
+         <property name="hibernate.c3p0.acquire_increment">2</property>
+
+         <!-- 物件與資料庫表格映射文件-->
+        <mapping resource="com/eland/entities/SearchRecordEntity.hbm.xml"/>
+        <mapping resource="com/eland/entities/IndexHashInformationEntity.hbm.xml"/>
+        <mapping class="com.eland.entities.IndexHashInformationEntity"/>
+
+
+    </session-factory>
+
+</hibernate-configuration>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.eland.entities.IndexHashInformationEntity" table="index_hash_information" schema="dbo"
+           catalog="testdb">
+        <property name="id" column="id"/>
+        <property name="indexNamePathBefore" column="index_name_path_before"/>
+        <property name="md5Before" column="md5_before"/>
+        <property name="indexNamePathAfter" column="index_name_path_after"/>
+        <property name="md5After" column="md5_after"/>
+        <property name="hashResult" column="hash_result"/>
+        <property name="createTime" column="create_time"/>
+    </class>
+</hibernate-mapping>

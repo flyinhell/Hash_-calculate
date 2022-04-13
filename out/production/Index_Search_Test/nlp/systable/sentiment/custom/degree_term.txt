@@ -1,0 +1,20 @@
+#
+# USER-DEFINED DEGREE TERM TABLE for eland.nlp.*
+#                                                      eLand Technologies, Taiwan
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#
+# Syntax: [term],[the weight score to override]
+#
+# (Blacklist) If you wanna remove the term in sentiment classifier,
+# please add:
+#
+#    very,0
+#
+# (Whitelist) If you wanna add the term in sentiment classifier,
+# please add:
+#
+#    more,1
+#
+# Note: if duplicate terms found, the former will be discard.
+#
+®Ú¥»,1

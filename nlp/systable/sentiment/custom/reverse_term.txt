@@ -1,0 +1,21 @@
+#
+# USER-DEFINED NEUTRAL TERM TABLE for eland.nlp.*
+#                                                      eLand Technologies, Taiwan
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#
+# Syntax: [term],[the weight score to override]
+#
+# (Blacklist) If you wanna remove the term in sentiment classifier,
+# please add:
+#
+#    notice,0
+#
+# (Whitelist) If you wanna add the term in sentiment classifier,
+# please add:
+#
+#    no,1
+#
+# Note: if duplicate terms found, the former will be discard.
+#
+¤£ºâ,1
+¤£ªÖ,1
